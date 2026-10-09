@@ -1,13 +1,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f8ff9d;
+    background: #a7764b;
 }
 
 header {
     padding: 20px;
     background: #111;
-    color: rgb(255, 233, 105);
+    color: rgb(220, 208, 146);
     text-align: center;
 }
 
@@ -20,21 +20,21 @@ main {
 
 .contenedor h1 {
     text-align: center;
-    color: #8d7222;
+    color: #ccb779;
     font-family: italic;
     text-align: center;
 }
 
 .contenedor h2 {
     text-align: center;
-    color: #8d7222;
+    color: #8d7e51;
     font-family: Arial;
     text-align: center;
 }
 
 .contenedor p {
     text-align: center;
-    color: #8d7222;
+    color: #7a6e4b;
     font-family: Arial;
     text-align: center;
 }
