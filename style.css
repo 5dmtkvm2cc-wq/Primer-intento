@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f3f4f1;
+    background: #f8ff9d;
 }
 
 header {
@@ -14,11 +14,7 @@ header {
 main {
     padding: 40px;
 }
-.contenedor {
-    background-color: rgb(199, 179, 118);
-    padding: 20px;
-    border-radius: 10px;
-}
+
 .contenedor h1 {
     text-align: center;
     color: #8d7222;
