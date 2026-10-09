@@ -13,6 +13,8 @@ header {
 
 main {
     padding: 40px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .contenedor h1 {
