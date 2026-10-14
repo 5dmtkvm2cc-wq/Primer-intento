@@ -52,5 +52,38 @@
             <button type="submit">Agregar cita</button>
         </form>
     </div>
+    <div>
+        <h3>Eliminar cita</h3>
+        <form id="delete-appointment-form">
+            <label for="delete-client-name">Nombre del cliente:</label>
+            <input type="text" id="delete-client-name" name="delete-client-name" required>
+            <br>
+            <button type="submit">Eliminar cita</button>
+        </form>
+    </div>
+    <div>
+        <h3>Editar cita</h3>
+        <form id="edit-appointment-form">
+            <label for="edit-client-name">Nombre del cliente:</label>
+            <input type="text" id="edit-client-name" name="edit-client-name" required>
+            <br>
+            <label for="edit-appointment-date">Nueva fecha y hora:</label>
+            <input type="datetime-local" id="edit-appointment-date" name="edit-appointment-date" required>
+            <br>
+            <button type="submit">Editar cita</button>
+        </form>
+    </div>
+    <div>
+        <h3>Buscar cita</h3>
+        <form id="search-appointment-form">
+            <label for="search-client-name">Nombre del cliente:</label>
+            <input type="text" id="search-client-name" name="search-client-name" required>
+            <br>
+            <button type="submit">Buscar cita</button>
+        </form>
+        <ul id="search-results-list">
+            <!-- Aquí se mostrarán los resultados de la búsqueda -->
+        </ul>
+    </div>
 </body>
 </html>
