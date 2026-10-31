@@ -26,3 +26,8 @@ a {
     color: #1a0dab;
     text-decoration: none;
 }
+.contenedor {
+    background-color: black;
+    background-image: url("imagen.jpg");
+    background-size: cover;
+}
