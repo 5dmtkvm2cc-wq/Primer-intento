@@ -55,14 +55,17 @@
             </form>
         </section>
 
-        <section class="eliminar-cita">
-            <h3>Eliminar cita</h3>
-            <form id="delete-appointment-form">
-                <label for="delete-client-name">Nombre del cliente:</label>
-                <input type="text" id="delete-client-name" name="delete-client-name" required>
+          <section class="buscar-cita">
+            <h3>Buscar cita</h3>
+            <form id="search-appointment-form">
+                <label for="search-client-name">Nombre del cliente:</label>
+                <input type="text" id="search-client-name" name="search-client-name" required>
 
-                <button type="submit">Eliminar cita</button>
+                <button type="submit">Buscar cita</button>
             </form>
+            <ul id="search-results-list">
+                <!-- Aquí se mostrarán los resultados -->
+            </ul>
         </section>
 
         <section class="editar-cita">
@@ -78,17 +81,14 @@
             </form>
         </section>
 
-        <section class="buscar-cita">
-            <h3>Buscar cita</h3>
-            <form id="search-appointment-form">
-                <label for="search-client-name">Nombre del cliente:</label>
-                <input type="text" id="search-client-name" name="search-client-name" required>
+        <section class="eliminar-cita">
+            <h3>Eliminar cita</h3>
+            <form id="delete-appointment-form">
+                <label for="delete-client-name">Nombre del cliente:</label>
+                <input type="text" id="delete-client-name" name="delete-client-name" required>
 
-                <button type="submit">Buscar cita</button>
+                <button type="submit">Eliminar cita</button>
             </form>
-            <ul id="search-results-list">
-                <!-- Aquí se mostrarán los resultados -->
-            </ul>
         </section>
 
     </main>
