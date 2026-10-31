@@ -18,6 +18,11 @@ header {
     padding: 1rem;
     border-bottom: 2px solid #e8c9b0;
     margin-bottom: 1.5rem;
+    h1 {
+        font-size: 1.8rem;
+        color: #221811;
+        font-family: 'Brush Script MT', 'Lucida Handwriting', 'Segoe Script', cursive;
+    }
 }
 
 .header-top {
