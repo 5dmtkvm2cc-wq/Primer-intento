@@ -3,87 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estetica López</title>
+    <title>Estética López</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div>
-        <h1>Estetica López</h1>
-    <br>
-        <h2>Agenda · Gestión</h2>
-    </div>
-    <a>
-        <img src="https://static.vecteezy.com/system/resources/previews/020/953/305/non_2x/beauty-aesthetics-woman-watercolor-illustration-colorful-vector.jpg" alt="Logo de Estetica López" width="100">
-    </a>
-    <div>
-    <datetime id="current-date"></datetime>
-        <h2>Buenos dias</h2>
-    <br>
-        <h3>Resumen de tu agenda</h3>
-    </div>
-    <div>
-        <a>Citas de hoy</a>
-        <ul id="appointments-list">
-            <!-- Aquí se mostrarán las próximas citas -->
-        </ul>
-    </div>
-    <div>
-        <a>Próximas citas</a>
-        <ul id="upcoming-appointments-list">
-            <!-- Aquí se mostrarán las próximas citas -->
-        </ul>
-    </div>
-    <div>
-        <a>Proximas citas</a>
-        <ul id="upcoming-appointments-list">
-            <!-- Aquí se mostrarán las próximas citas -->
-        </ul>
-    </div>
-    <div>
-        <h3>Agregar nueva cita</h3>
-        <form id="appointment-form">
-            <label for="client-name">Nombre del cliente:</label>
-            <input type="text" id="client-name" name="client-name" required>
-            <br>
-            <label for="appointment-date">Fecha y hora:</label>
-            <input type="datetime-local" id="appointment-date" name="appointment-date" required>
-            <br>
-            <button type="submit">Agregar cita</button>
-        </form>
-    </div>
-    <div>
-        <h3>Eliminar cita</h3>
-        <form id="delete-appointment-form">
-            <label for="delete-client-name">Nombre del cliente:</label>
-            <input type="text" id="delete-client-name" name="delete-client-name" required>
-            <br>
-            <button type="submit">Eliminar cita</button>
-        </form>
-    </div>
-    <div>
-        <h3>Editar cita</h3>
-        <form id="edit-appointment-form">
-            <label for="edit-client-name">Nombre del cliente:</label>
-            <input type="text" id="edit-client-name" name="edit-client-name" required>
-            <br>
-            <label for="edit-appointment-date">Nueva fecha y hora:</label>
-            <input type="datetime-local" id="edit-appointment-date" name="edit-appointment-date" required>
-            <br>
-            <button type="submit">Editar cita</button>
-        </form>
-    </div>
-    <div>
-        <h3>Buscar cita</h3>
-        <form id="search-appointment-form">
-            <label for="search-client-name">Nombre del cliente:</label>
-            <input type="text" id="search-client-name" name="search-client-name" required>
-            <br>
-            <button type="submit">Buscar cita</button>
-        </form>
-        <ul id="search-results-list">
-            <!-- Aquí se mostrarán los resultados de la búsqueda -->
-        </ul>
-    </div>
+
+    <header>
+        <div class="header-top">
+            <img src="https://static.vecteezy.com/system/resources/previews/020/953/305/non_2x/beauty-aesthetics-woman-watercolor-illustration-colorful-vector.jpg"
+                 alt="Logo de Estética López" width="100">
+            <div>
+                <h1>Estética López</h1>
+                <h2>Agenda · Gestión</h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="resumen">
+            <p id="current-date"></p>
+            <h2>Buenos días</h2>
+            <h3>Resumen de tu agenda</h3>
+        </section>
+
+        <section class="citas-hoy">
+            <h3>Citas de hoy</h3>
+            <ul id="appointments-list">
+                <!-- Aquí se mostrarán las citas de hoy -->
+            </ul>
+        </section>
+
+        <section class="proximas-citas">
+            <h3>Próximas citas</h3>
+            <ul id="upcoming-appointments-list">
+                <!-- Aquí se mostrarán las próximas citas -->
+            </ul>
+        </section>
+
+        <section class="agregar-cita">
+            <h3>Agregar nueva cita</h3>
+            <form id="appointment-form">
+                <label for="client-name">Nombre del cliente:</label>
+                <input type="text" id="client-name" name="client-name" required>
+
+                <label for="appointment-date">Fecha y hora:</label>
+                <input type="datetime-local" id="appointment-date" name="appointment-date" required>
+
+                <button type="submit">Agregar cita</button>
+            </form>
+        </section>
+
+        <section class="eliminar-cita">
+            <h3>Eliminar cita</h3>
+            <form id="delete-appointment-form">
+                <label for="delete-client-name">Nombre del cliente:</label>
+                <input type="text" id="delete-client-name" name="delete-client-name" required>
+
+                <button type="submit">Eliminar cita</button>
+            </form>
+        </section>
+
+        <section class="editar-cita">
+            <h3>Editar cita</h3>
+            <form id="edit-appointment-form">
+                <label for="edit-client-name">Nombre del cliente:</label>
+                <input type="text" id="edit-client-name" name="edit-client-name" required>
+
+                <label for="edit-appointment-date">Nueva fecha y hora:</label>
+                <input type="datetime-local" id="edit-appointment-date" name="edit-appointment-date" required>
+
+                <button type="submit">Editar cita</button>
+            </form>
+        </section>
+
+        <section class="buscar-cita">
+            <h3>Buscar cita</h3>
+            <form id="search-appointment-form">
+                <label for="search-client-name">Nombre del cliente:</label>
+                <input type="text" id="search-client-name" name="search-client-name" required>
+
+                <button type="submit">Buscar cita</button>
+            </form>
+            <ul id="search-results-list">
+                <!-- Aquí se mostrarán los resultados -->
+            </ul>
+        </section>
+
+    </main>
+
 </body>
 </html>
