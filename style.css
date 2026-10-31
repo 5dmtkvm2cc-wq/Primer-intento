@@ -1,0 +1,28 @@
+h1 {
+    size: 2em;
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+}
+h2 {
+    size: 1.5em;
+    color: #666;
+    text-align: left;
+    margin-top: 0;
+}
+p {
+    size: 1em;
+    color: #000;
+    text-align: justify;
+    margin-top: 0;
+}
+h3 {
+    size: 1.2em;
+    color: #444;
+    text-align: left;
+    margin-top: 0;
+}
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
